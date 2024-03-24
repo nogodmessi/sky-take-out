@@ -147,6 +147,7 @@ public class DishServiceImpl implements DishService {
             });
             // 向口味表插入n条数据
             dishFlavorMapper.insertBatch(flavors);
+
         }
     }
 }
